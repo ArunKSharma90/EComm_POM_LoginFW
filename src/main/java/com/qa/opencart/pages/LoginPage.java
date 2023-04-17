@@ -24,6 +24,7 @@ public class LoginPage {
 			eleUtil.doSendKeys(password, pwd);
 			eleUtil.doClick(login_Btn);
 			System.out.println("uname and psswrd are entered and login clicked");
+			System.out.println("This is edited directly at remote, now pull the latest master copy in your local and verify");
 			return new AccountPage(driver);
 		}
 }
