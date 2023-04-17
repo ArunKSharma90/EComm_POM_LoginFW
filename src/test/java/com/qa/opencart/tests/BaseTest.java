@@ -9,11 +9,10 @@ import com.qa.opencart.pages.LoginPage;
 
 public class BaseTest {
 	DriverFactory df;
+	Properties prop;
 	WebDriver driver;
 	LoginPage lgnPage;
 	AccountPage accPage;
-	Properties prop;
-	
 	
 	@BeforeTest
 	public void setup()  {
