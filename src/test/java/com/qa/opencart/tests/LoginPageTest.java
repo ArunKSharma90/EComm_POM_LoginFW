@@ -7,6 +7,7 @@ public class LoginPageTest extends BaseTest {
 	
 	@Test
 	public void loginTest() {
+		
 		accPage = lgnPage.doLogin(prop.getProperty("username").trim(), prop.getProperty("password").trim());
 		Assert.assertTrue(accPage.isAccountLinkDisplayed());
 	}
